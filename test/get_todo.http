@@ -1,0 +1,5 @@
+@base_url=http://localhost:8080
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk5MDYxNTB9._y958rkzH2BL-HZYakNxyL1JpDpjN6A4dOgn3fOfMvo
+
+GET {{base_url}}/todos
+Authorization: Bearer {{access_token}}
